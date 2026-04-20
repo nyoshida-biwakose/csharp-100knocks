@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-Console.Write("1〜100 の整数を入力してください: ");
+Console.Write("1から100 の整数を入力してください: ");
 var input = Console.ReadLine();
 
 if (string.IsNullOrWhiteSpace(input))
@@ -21,6 +21,9 @@ switch (n)
     case 1:
         HandleKnock001();
         break;
+    case 2:
+        HandleKnock002();
+        break;
     case <= 100:
         Console.Error.WriteLine("処理未定義です。");
         break;
@@ -33,4 +36,11 @@ static void HandleKnock001()
 {
     // Knock 001: Hello, World!
     Console.WriteLine("Hello, World!");
+}
+
+static void HandleKnock002()
+{
+    // Knock 002: int型の変数xに10を代入し出力せよ
+    int x = 10;
+    Console.WriteLine($"x = {x}");
 }
