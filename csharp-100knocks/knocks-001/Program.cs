@@ -24,6 +24,9 @@ switch (n)
     case 2:
         HandleKnock002();
         break;
+    case 3:
+        HandleKnock003();
+        break;
     case <= 100:
         Console.Error.WriteLine("処理未定義です。");
         break;
@@ -43,4 +46,11 @@ static void HandleKnock002()
     // Knock 002: int型の変数xに10を代入し出力せよ
     int x = 10;
     Console.WriteLine($"x = {x}");
+}
+static void HandleKnock003()
+{
+    // Knock 003: 2つの数の和を出力せよ（3と5）
+    int a = 3;
+    int b = 5;
+    Console.WriteLine($"{a} + {b} = {a + b}");
 }
