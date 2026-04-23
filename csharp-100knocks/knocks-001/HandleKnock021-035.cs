@@ -169,19 +169,51 @@ static class KnockHandlers2
         }
     }
 
+    /// <summary>
+    /// Q32: 最大値を求めよ (学習: Max拡張メソッド)
+    /// </summary>
     public static void HandleKnock032()
     {
+        List<int> list = new List<int> { 1, 2, 3, 4, 5 };
+        int maxValue = list.Max();
+        Console.WriteLine($"Listの最大値: {maxValue}");
     }
 
+    /// <summary>
+    /// Q33: 最小値を求めよ (学習: Min拡張メソッド)
+    /// </summary>
     public static void HandleKnock033()
     {
+        List<int> list = new List<int> { 1, 2, 3, 4, 5 };
+        int minValue = list.Min();
+        Console.WriteLine($"Listの最小値: {minValue}");
     }
 
+    /// <summary>
+    /// Q34: List を配列に変換せよ (学習: ToArray)
+    /// </summary>
     public static void HandleKnock034()
     {
+        List<int> list = [1, 2, 3, 4, 5];
+        int[] array = [.. list];
+        Console.WriteLine("Listを配列に変換した結果:");
+        foreach (int element in array)
+        {
+            Console.WriteLine(element);
+        }
     }
 
+    /// <summary>
+    /// Q35: 配列を List に変換せよ (学習: ToList)
+    /// </summary>
     public static void HandleKnock035()
     {
+        int[] array = { 1, 2, 3, 4, 5 };
+        List<int> list = [.. array];
+        Console.WriteLine("配列をListに変換した結果:");
+        foreach (int element in list)
+        {
+            Console.WriteLine(element);
+        }
     }
 }
