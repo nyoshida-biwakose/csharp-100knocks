@@ -155,8 +155,18 @@ static class KnockHandlers2
         }
     }
 
+    /// <summary>
+    /// Q31: HashSet で重複排除を行え (学習: HashSet)
+    /// </summary>
     public static void HandleKnock031()
     {
+        List<int> listWithDuplicates = new List<int> { 1, 2, 2, 3, 4, 4, 5 };
+        HashSet<int> uniqueSet = new HashSet<int>(listWithDuplicates);
+        Console.WriteLine("重複排除後の要素:");
+        foreach (int element in uniqueSet)
+        {
+            Console.WriteLine(element);
+        }
     }
 
     public static void HandleKnock032()
