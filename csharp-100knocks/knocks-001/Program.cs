@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using knocks_001;
 
 Console.Write("1から100 の整数を入力してください: ");
 var input = Console.ReadLine();
@@ -122,6 +123,9 @@ switch (n)
         break;
     case 35:
         KnockHandlers2.HandleKnock035();
+        break;
+    case 36:
+        KnockHandlers3.HandleKnock036();
         break;
     case <= 100:
         Console.Error.WriteLine("処理未定義です。");
