@@ -127,9 +127,198 @@ switch (n)
     case 36:
         KnockHandlers3.HandleKnock036();
         break;
-    case <= 100:
-        Console.Error.WriteLine("処理未定義です。");
+    case 37:
+        KnockHandlers3.HandleKnock037();
         break;
+    case 38:
+        KnockHandlers3.HandleKnock038();
+        break;
+    case 39:
+        KnockHandlers3.HandleKnock039();
+        break;
+    case 40:
+        KnockHandlers3.HandleKnock040();
+        break;
+    case 41:
+        KnockHandlers3.HandleKnock041();
+        break;
+    case 42:
+        KnockHandlers3.HandleKnock042();
+        break;
+    case 43:
+        KnockHandlers3.HandleKnock043();
+        break;
+    case 44:
+        KnockHandlers3.HandleKnock044();
+        break;
+    case 45:
+        KnockHandlers3.HandleKnock045();
+        break;
+    case 46:
+        KnockHandlers3.HandleKnock046();
+        break;
+    case 47:
+        KnockHandlers3.HandleKnock047();
+        break;
+    case 48:
+        KnockHandlers3.HandleKnock048();
+        break;
+    case 49:
+        KnockHandlers3.HandleKnock049();
+        break;
+    case 50:
+        KnockHandlers3.HandleKnock050();
+        break;
+    //case 51:
+    //    KnockHandlers3.HandleKnock051();
+    //    break;
+    //case 52:
+    //    KnockHandlers3.HandleKnock052();
+    //    break;
+    //case 53:
+    //    KnockHandlers3.HandleKnock053();
+    //    break;
+    //case 54:
+    //    KnockHandlers3.HandleKnock054();
+    //    break;
+    //case 55:
+    //    KnockHandlers3.HandleKnock055();
+    //    break;
+    //case 56:
+    //    KnockHandlers3.HandleKnock056();
+    //    break;
+    //case 57:
+    //    KnockHandlers3.HandleKnock057();
+    //    break;
+    //case 58:
+    //    KnockHandlers3.HandleKnock058();
+    //    break;
+    //case 59:
+    //    KnockHandlers3.HandleKnock059();
+    //    break;
+    //case 60:
+    //    KnockHandlers3.HandleKnock060();
+    //    break;
+    //case 61:
+    //    KnockHandlers3.HandleKnock061();
+    //    break;
+    //case 62:
+    //    KnockHandlers3.HandleKnock062();
+    //    break;
+    //case 63:
+    //    KnockHandlers3.HandleKnock063();
+    //    break;
+    //case 64:
+    //    KnockHandlers3.HandleKnock064();
+    //    break;
+    //case 65:
+    //    KnockHandlers3.HandleKnock065();
+    //    break;
+    //case 66:
+    //    KnockHandlers3.HandleKnock066();
+    //    break;
+    //case 67:
+    //    KnockHandlers3.HandleKnock067();
+    //    break;
+    //case 68:
+    //    KnockHandlers3.HandleKnock068();
+    //    break;
+    //case 69:
+    //    KnockHandlers3.HandleKnock069();
+    //    break;
+    //case 70:
+    //    KnockHandlers3.HandleKnock070();
+    //    break;
+    //case 71:
+    //    KnockHandlers3.HandleKnock071();
+    //    break;
+    //case 72:
+    //    KnockHandlers3.HandleKnock072();
+    //    break;
+    //case 73:
+    //    KnockHandlers3.HandleKnock073();
+    //    break;
+    //case 74:
+    //    KnockHandlers3.HandleKnock074();
+    //    break;
+    //case 75:
+    //    KnockHandlers3.HandleKnock075();
+    //    break;
+    //case 76:
+    //    KnockHandlers3.HandleKnock076();
+    //    break;
+    //case 77:
+    //    KnockHandlers3.HandleKnock077();
+    //    break;
+    //case 78:
+    //    KnockHandlers3.HandleKnock078();
+    //    break;
+    //case 79:
+    //    KnockHandlers3.HandleKnock079();
+    //    break;
+    //case 80:
+    //    KnockHandlers3.HandleKnock080();
+    //    break;
+    //case 81:
+    //    KnockHandlers3.HandleKnock081();
+    //    break;
+    //case 82:
+    //    KnockHandlers3.HandleKnock082();
+    //    break;
+    //case 83:
+    //    KnockHandlers3.HandleKnock083();
+    //    break;
+    //case 84:
+    //    KnockHandlers3.HandleKnock084();
+    //    break;
+    //case 85:
+    //    KnockHandlers3.HandleKnock085();
+    //    break;
+    //case 86:
+    //    KnockHandlers3.HandleKnock086();
+    //    break;
+    //case 87:
+    //    KnockHandlers3.HandleKnock087();
+    //    break;
+    //case 88:
+    //    KnockHandlers3.HandleKnock088();
+    //    break;
+    //case 89:
+    //    KnockHandlers3.HandleKnock089();
+    //    break;
+    //case 90:
+    //    KnockHandlers3.HandleKnock090();
+    //    break;
+    //case 91:
+    //    KnockHandlers3.HandleKnock091();
+    //    break;
+    //case 92:
+    //    KnockHandlers3.HandleKnock092();
+    //    break;
+    //case 93:
+    //    KnockHandlers3.HandleKnock093();
+    //    break;
+    //case 94:
+    //    KnockHandlers3.HandleKnock094();
+    //    break;
+    //case 95:
+    //    KnockHandlers3.HandleKnock095();
+    //    break;
+    //case 96:
+    //    KnockHandlers3.HandleKnock096();
+    //    break;
+    //case 97:
+    //    KnockHandlers3.HandleKnock097();
+    //    break;
+    //case 98:
+    //    KnockHandlers3.HandleKnock098();
+    //    break;
+    //case 99:
+    //    KnockHandlers3.HandleKnock099();
+    //    break;
+    //case 100:
+    //    KnockHandlers3.HandleKnock100();
+    //    break;
     default:
         Console.Error.WriteLine("想定外の値です。");
         break;
